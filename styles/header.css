@@ -1,0 +1,30 @@
+.header{
+  background-color: rgb(33, 37, 41);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-place{
+  background-color: lightblue;
+  width: 180px;
+  align-items: end;
+  display: flex;
+  justify-content: end;
+}
+
+.logo{
+  height: 36px;
+  width: 36px;
+}
+
+.header-options{
+  background-color: lightpink;
+  flex: 1;
+}
+
+.register{
+  background-color: lightgoldenrodyellow;
+  width: 220px;
+}
