@@ -1,4 +1,4 @@
-.header{
+.header {
   background-color: rgb(33, 37, 41);
   height: 60px;
   display: flex;
@@ -6,25 +6,75 @@
   align-items: center;
 }
 
-.logo-place{
-  background-color: lightblue;
-  width: 180px;
+.left-header {
   align-items: end;
   display: flex;
-  justify-content: end;
+  justify-content: start;
 }
 
-.logo{
+.logo {
   height: 36px;
   width: 36px;
+  margin-left: 16px;
 }
 
-.header-options{
-  background-color: lightpink;
+.middle-header {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
   flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-.register{
-  background-color: lightgoldenrodyellow;
+.home-icon,
+.features-icon,
+.pricing-icon,
+.about-icon {
+  padding: 0 8px 5px 8px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.right-header {
   width: 220px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.login {
+  font-size: 14px;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  margin: 0 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.login:hover {
+  background-color: white;
+  color: rgb(33, 37, 41);
+}
+
+.sign-up {
+  font-size: 14px;
+  background-color: rgb(255, 193, 7);
+  color: rgb(33, 37, 41);
+  border: 1px solid rgb(255, 193, 7);
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  text-wrap: nowrap;
+}
+
+.sign-up:hover {
+  background-color: rgb(255, 208, 67);
 }
