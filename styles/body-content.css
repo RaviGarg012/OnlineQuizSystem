@@ -1,0 +1,46 @@
+.content {
+  height: 280px;
+  display: flex;
+  padding: 72px 128px;
+}
+
+.take-quiz {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.take-quiz-title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.take-quiz-info {
+  color: rgba(177, 177, 177, 0.74);
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.take-quiz-button-info {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(255, 193, 7);
+  color: rgb(33, 33, 41);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.take-quiz-button-info:hover {
+  background-color: rgb(255, 208, 67);
+}
+
+.quiz-image {
+  background-color: lightblue;
+  flex: 1;
+}
